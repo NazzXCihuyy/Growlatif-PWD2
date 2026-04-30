@@ -40,8 +40,8 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background : linear-gradient(to right, #00adb5, black, #f93280);
-    color: white;
+    background : linear-gradient(to bottom, black, whitesmoke, black);
+    color: black;
     flex-direction: column;
 }
 
@@ -49,17 +49,26 @@ nav ul li a:hover {
     font-size: 3em;
 }
 
-.hero button {
+#contact {
+    background: linear-gradient(to bottom, black, #222);
+    color: white;
+}
+
+#contact button {
     margin-top: 10px;
     padding: 10px 20px;
     font-size: 1.2em;
     background: #222;
-    color: white;
     cursor: pointer;
     border-radius: 10px;
 }
 
-.hero button:hover {
+#contact button a {
+    text-decoration: none;
+    color: white;
+}
+
+#contact button:hover {
     background: #111;
 }
 
@@ -93,4 +102,45 @@ footer {
 .card:hover {
     background-color: #f0f0f0;
     transform: translateY(-10px);
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.card a:hover {
+    color: #00adb5;
+}
+
+#project {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to bottom, black, whitesmoke, black);
+    color: black;
+    flex-direction: column;
+}
+
+
+
+#about {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  align-items: center; 
+  background:  black;
+  color: white;
+  gap: 20px; 
+}
+
+#about img {
+  border-radius: 5%; 
+}
+
+#about h2 {
+  width: 100%; 
 }
